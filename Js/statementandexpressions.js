@@ -2,7 +2,7 @@
 
 // 3 + 4 is an expression because it is going to produce a value.
 // 1991 is an expression even though it is just a simple value. it will produce a value in javascript
-// true && false & !false is an expression because it will produce a boolean value. 
+// true && false && !false is an expression because it will produce a boolean value. 
 
 // a statement is a bigger piece of code that is executed and does not produce a value on itself.
 
@@ -25,7 +25,10 @@ if(23 > 10){
 // anything that ends with a semicolon ; is a statement.
 // in a template literal, you can only insert expressions but not a statement.
 
-console.log(`I'm ${2037 - 1991} years old`);
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}`);
 
-// the 
+
+
+// statements are full sentences that translates the actions that we want the program to perform.
 
