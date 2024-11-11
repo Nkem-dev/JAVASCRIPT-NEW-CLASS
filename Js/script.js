@@ -9,4 +9,4 @@ let js = 'amazing';
 
         // the special function used to output the result is;
         console.log( 40 + 8 + 23 -10);
-        // with this, we will get the output of this code printed to the console.
+         // with this, we will get the output of this code printed to the console.
