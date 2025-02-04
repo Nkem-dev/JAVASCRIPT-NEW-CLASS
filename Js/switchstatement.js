@@ -1,4 +1,4 @@
-// this is an alternative way of writing a complicated ifelse statement when all we want to do is to compare one value to multiple different options.
+// this is an alternative way of writing a complicated ifelse statement 
 
 // week day variable with one activity to each day
 

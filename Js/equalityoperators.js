@@ -2,6 +2,10 @@ const age = 18;
 if(age === 18){ 
     console.log("you just became an adult!");
 }
+
+if(age == '18'){
+    console.log('hello world');
+}
 // to check if it is exactly 18
 // === returns a true or false value. true will only be the result of the operator in the case that both sides are the same.
 

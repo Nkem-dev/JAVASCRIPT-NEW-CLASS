@@ -10,18 +10,29 @@
 
 // MATHEMATICAL OPERATORS
 
-// 1. Minus operator
+// 1. Minus 
 const birthyear = 2037;
 const ageJonas = birthyear - 1991;
 const ageSarah = birthyear - 2018;
 console.log(ageJonas, ageSarah);
 // you can log more than one value in a console.log
 
+// multiplication
+console.log(ageJonas * 2);
+
+// division
+console.log(ageJonas / 10);
+
+// module
+console.log(ageSarah % 3);
+
+// power
+console.log(ageSarah ** 3);
 
 console.log(ageJonas * 2, ageJonas / 10, 2 **3);
 //  2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-//2. Addition operator
+// Addition
 // we can use the addition operator to join strings or to concatenate strings
 
 const firstName = 'Jonas';
@@ -71,3 +82,29 @@ const isFullAge = ageSarah >= 18;
 console.log(isFullAge);
 
 console.log(birthyear - 1991 > birthyear - 2018);
+
+// LOGICAL OPERATORS
+// 1. AND
+// 2. NOT
+// 3. OR
+
+// AND is represented with &&
+const myRealName = 'Juliet';
+const myFakeName = 'Joy';
+
+if(myRealName === 'Juliet' && myFakeName === 'Joy'){
+    console.log('Yay!I have both names')
+} else{
+    console.log('Oops! I just have one name');
+}
+
+// NOT is represented with !
+console.log(!myRealName); //output as false because ! serves as inverse. if true, it will become false and if false it will bevome true
+
+// OR is represented with ||
+if(myRealName === 'Juliet' || myFakeName === 'destiny'){
+    console.log('Yay!I have both names')
+} else{
+    console.log('Oops! I just have one name');
+}
+

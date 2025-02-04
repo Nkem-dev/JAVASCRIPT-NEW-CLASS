@@ -11,7 +11,7 @@ let age = 30;
 age = 31;
 console.log(age);
 
-// 2. const : they are used to declare variables that are not supposed to change at any point in the future. the value in a const variable cannot be changed.
+// 2. const : they are used to declare variables that are not supposed to change at any point in the future. the value in a const variable cannot be changed. 
 
 const birthYear = 1991;
 // birthYear = 1990;
@@ -40,3 +40,12 @@ job = 'teacher';
 lastName = 'Schmedtmann';
 console.log(lastName);
 // javascript will execute  this  code to the console even without declaring the variable by using let , const or var. this is a terrible idea. Always declare variables. 
+
+
+// Assesment
+let myName = 'Angela';
+myName = 'Joy'; //ressigning a new value to the variable
+console.log(myName);
+
+const myBirthYear = 1992;
+console.log(myBirthYear);

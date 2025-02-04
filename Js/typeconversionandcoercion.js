@@ -12,6 +12,9 @@ console.log(Number('Jonas'));
 // converting number to string
 console.log(String(23), 23);
 
+// converting string to boolean
+console.log(Boolean('Angela'));
+
 // Javascript can only convert to a number, to a string and to a boolean.
 
 

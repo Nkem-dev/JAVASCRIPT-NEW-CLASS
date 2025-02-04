@@ -67,3 +67,22 @@ console.log(typeof year);
 console.log(typeof null);
 // it returns as object. This is regarded as a bug in javascript.
 
+// PRIMITIVE DATATYPES
+// Number
+console.log(typeof 100);
+
+// String
+console.log(typeof 'Nigeria');
+
+// Boolean
+console.log(typeof true);
+
+// undefined
+let anonymous;
+console.log(typeof anonymous);
+
+// null
+console.log(null);
+
+// The typeof operator is used to know the type of datatype a value is.
+

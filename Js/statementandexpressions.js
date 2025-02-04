@@ -6,7 +6,6 @@
 
 // a statement is a bigger piece of code that is executed and does not produce a value on itself.
 
-// the declaration is like a complete sentence and expression is like the words that make up the sentences.
 
 // We write our codes as a sequence if actions and these actions are statements
 
@@ -16,7 +15,7 @@ if(23 > 10){
 
 // This ifelse statement is a statement and the same is true for a switch statement
 
-// the statement above doesn't really produce a value. it simply declares the variable 'str'. it performs an action, in this case , declaring a variable but t doesn't produce a value.
+// the statement above doesn't really produce a value. it simply declares the variable 'str'. it performs an action, in this case , declaring a variable but it doesn't produce a value.
 
 // the 'str' is an expression
 
@@ -27,8 +26,6 @@ if(23 > 10){
 
 const me = 'Jonas';
 console.log(`I'm ${2037 - 1991} years old ${me}`);
-
-
 
 // statements are full sentences that translates the actions that we want the program to perform.
 
